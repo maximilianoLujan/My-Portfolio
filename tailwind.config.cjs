@@ -10,7 +10,7 @@ module.exports = {
       'greyHero':'#63676A',
       'textHero':'#EBEBEC',
       'blackNavbar':'#1D1A19',
-      'black':'#000000'
+      'black':'#000000',
     },
   },
   plugins: [],
