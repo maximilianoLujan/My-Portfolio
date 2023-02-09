@@ -11,7 +11,16 @@ module.exports = {
       xs:'368px',
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      width: {
+        '100': '350px',
+        '104': '400px',
+      },
+      height: {
+        '118': '550px',
+        '124': '600px'
+      }
+    },
     colors: {
       'greyHero':'#63676A',
       'textHero':'#EBEBEC',
