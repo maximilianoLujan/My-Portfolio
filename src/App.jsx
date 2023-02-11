@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar/Navbar"
 import HeroDesktop from "./components/Hero/HeroDesktop"
 import HeroMovil from "./components/Hero/HeroMovil"
 import Aboutme from "./components/Aboutme/Aboutme"
+import Experience from "./components/Experience/Experience"
+import "./App.css"
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
             <HeroMovil />
           </div>
           <Aboutme />
+          <Experience />
       </div>
   )
 }
