@@ -26,7 +26,8 @@ module.exports = {
       'textHero':'#EBEBEC',
       'blackNavbar':'#1D1A19',
       'black':'#000000',
-      'bg-social':'#C4C4C4'
+      'bg-social':'#C4C4C4',
+      'bg-portfolio': '#1A1A1A'
     },
   },
   plugins: [],

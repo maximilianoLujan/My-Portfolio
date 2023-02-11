@@ -9,7 +9,7 @@ export default function Experience(){
         setSeeInfo(!seeInfo)
     }
     return(
-        <div className="w-full contenedor-seccion flex flex-col items-center mb-16">
+        <div className="w-full contenedor-seccion flex flex-col items-center">
             <h2 className="w-max px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">EXPERIENCE</h2>
             <div className="flex flex-col">
                 <div className="flex w-full">
