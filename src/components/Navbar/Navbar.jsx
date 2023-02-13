@@ -28,9 +28,9 @@ export default function Navbar(){
             <div className="hidden sm:flex items-center">
                 <ul className="text-textHero w-full flex">
                     <li className="p-2"><a className="px-4 py-2  text-textHero font-semibold text-sm md:text-base" href="#aboutme">About me</a></li>
-                    <li className="p-2"><a className="px-4 py-2  text-textHero font-semibold" href="#skills">Skills</a></li>
-                    <li className="p-2"><a className="px-4 py-2  text-textHero font-semibold text-sm md:text-base" href="#portfolio">Portfolio</a></li>
                     <li className="p-2"><a className="px-4 py-2  text-textHero font-semibold text-sm md:text-base" href="#experience">Experience</a></li>
+                    <li className="p-2"><a className="px-4 py-2  text-textHero font-semibold text-sm md:text-base" href="#portfolio">Portfolio</a></li>
+                    <li className="p-2"><a className="px-4 py-2  text-textHero font-semibold" href="#skills">Skills</a></li>
                     <li className="p-2"><a className="px-4 py-2 rounded-full  text-black bg-textHero font-semibold text-sm md:text-base" href="#contactme">Contact me</a></li>
                 </ul>
             </div>
@@ -52,9 +52,9 @@ export default function Navbar(){
                         className="flex flex-col items-center gap-4 opacity-90 bg-blackNavbar mb-4">
                             <ul className="text-textHero w-full">
                                 <li className="w-full py-2"><a className="text-center font-semibold w-full block" href="#aboutme">About me</a></li>
-                                <li className="w-full py-2"><a className="text-center font-semibold w-full block" href="#skills">Skills</a></li>
-                                <li className="w-full py-2"><a className="text-center font-semibold w-full block" href="#portfolio">Portfolio</a></li>
                                 <li className="w-full py-2"><a className="text-center font-semibold w-full block" href="#experience">Experience</a></li>
+                                <li className="w-full py-2"><a className="text-center font-semibold w-full block" href="#portfolio">Portfolio</a></li>
+                                <li className="w-full py-2"><a className="text-center font-semibold w-full block" href="#skills">Skills</a></li>
                                 <li className="w-full py-2"><a className="text-center font-semibold w-full block" href="#contactme">Contact me</a></li>
                             </ul>
                         </nav>

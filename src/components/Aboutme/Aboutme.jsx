@@ -2,7 +2,7 @@ import "./Aboutme.css"
 
 export default function Aboutme(){
     return(
-        <div id="contenedor-aboutme" className="w-full pt-8 flex flex-col items-center">
+        <div id="aboutme"  className="w-full pt-8 flex flex-col items-center">
            <h2 className="w-max px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest">ABOUT ME</h2>
            <div className="w-4/5 sm:w-1/2 flex flex-col gap-5 sm:gap-3 my-8">
                 <p className="font-light text-xs sm:text-sm sm:font-normal sm:text-center">
