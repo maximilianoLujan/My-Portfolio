@@ -1,4 +1,3 @@
-import "./Portfolio.css"
 import projects from "../../constants/projects"
 
 
