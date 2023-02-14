@@ -1,5 +1,4 @@
 import techs from "../../constants/techs"
-import "./Skills.css"
 
 export default function Skills(){
     return(
