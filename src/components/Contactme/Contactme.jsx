@@ -34,7 +34,7 @@ export default function ContactMe(){
         return errors
     }
     return(
-        <div id="contactme" className="flex flex-col items-center w-full">
+        <div id="contactme" className="flex flex-col items-center w-full py-6">
             <h2 className="mt-6 w-max px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">CONTACT ME</h2>
             <div className="w-full md:w-1/2 px-8">
                 <Formik
