@@ -1,6 +1,5 @@
 import projects from "../../constants/projects"
 
-
 export default function Portfolio(){
 
 
@@ -9,9 +8,10 @@ export default function Portfolio(){
     }
 
     return(
-        <div id="portfolio" className="w-full flex flex-col items-center">
+        <div
+        id="portfolio" style={{translateX:'2000px'}} className="w-full py-10 flex flex-col bg-bg-portfolio items-center">
             <div className="fondo w-full flex flex-col items-center justify-center h-36">
-                <h2 className="w-max px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">PORTFOLIO</h2>
+                <h2 className="w-max text-textHero px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">PORTFOLIO</h2>
             </div>
             <div className="flex flex-col md:flex-row bg-bg-portfolio">
                 {projects.map(el => {

@@ -1,8 +1,9 @@
 import techs from "../../constants/techs"
 
+const animateSkill = {transform:'scale(3)'}
 export default function Skills(){
     return(
-        <div id="skills" className="w-full flex flex-col items-center">
+        <div id="skills" className="w-full flex flex-col items-center pb-10">
             <h2 className="mt-6 w-max px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">SKILLS</h2>
             <div>
                 <div className="mb-6">
@@ -11,7 +12,8 @@ export default function Skills(){
                         {techs.map(tec => {
                             if (tec.done == true){
                                 return(
-                                    <div key={tec.id} className="p-8 flex flex-col gap-4 items-center">
+                                    <div
+                                        key={tec.id} className="p-8 flex flex-col gap-4 items-center">
                                         {tec.svg}
                                         <p className="text-base">{tec.name}</p>
                                     </div>
@@ -26,7 +28,8 @@ export default function Skills(){
                         {techs.map(tec => {
                             if (tec.done == false){
                                 return(
-                                    <div key={tec.id} className="p-8 flex flex-col items-center">
+                                    <div
+                                        key={tec.id} className="p-8 flex flex-col items-center">
                                         {tec.svg}
                                         <p className="text-base">{tec.name}</p>
                                     </div>
