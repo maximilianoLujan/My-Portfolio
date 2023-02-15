@@ -1,6 +1,7 @@
 import { Formik ,Form , Field , ErrorMessage} from "formik";
 import "./contactme.css"
 import emailjs from '@emailjs/browser';
+import { motion } from "framer-motion";
 
 export default function ContactMe(){
     const sendEmail = (values) => {
@@ -34,7 +35,7 @@ export default function ContactMe(){
         return errors
     }
     return(
-        <div id="contactme" className="flex flex-col items-center w-full">
+        <div id="contactme" className="flex flex-col items-center w-full py-10">
             <h2 className="mt-6 w-max px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">CONTACT ME</h2>
             <div className="w-full md:w-1/2 px-8">
                 <Formik
@@ -67,7 +68,8 @@ export default function ContactMe(){
                                 <ErrorMessage  name="message" />
                             </p>
                         </div>
-                        <button type="submit" className="w-max font-bold px-6 py-2 border-x-2">SUBMIT</button>
+                        <button
+                            type="submit" className="rounded-full w-max font-bold px-8 py-4 text-textHero bg-black hover:opacity-100 opacity-90">SUBMIT</button>
                     </Form>
                 </Formik>
             </div>

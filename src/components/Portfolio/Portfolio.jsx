@@ -1,6 +1,5 @@
 import projects from "../../constants/projects"
 
-
 export default function Portfolio(){
 
 
@@ -9,14 +8,15 @@ export default function Portfolio(){
     }
 
     return(
-        <div id="portfolio" className="w-full flex flex-col items-center">
+        <div
+        id="portfolio" style={{translateX:'2000px'}} className="w-full py-10 flex flex-col bg-bg-portfolio items-center">
             <div className="fondo w-full flex flex-col items-center justify-center h-36">
-                <h2 className="w-max px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">PORTFOLIO</h2>
+                <h2 className="w-max text-textHero px-6 py-2 border-4 font-bold text-sm sm:text-lg tracking-widest mb-8">PORTFOLIO</h2>
             </div>
-            <div className="flex flex-col md:flex-row fondo">
+            <div className="flex flex-col md:flex-row bg-bg-portfolio">
                 {projects.map(el => {
                     return(
-                        <div key={el.id} className="relative m-4">
+                        <div key={el.id} className="relative m-1">
                             <img src={el.img} alt={el.name} />
                             <div className="cursor-pointer absolute flex items-center justify-evenly h-14 w-full bottom-0 bg-blackNavbar opacity-80">
                                 <div onClick={() => openUrl(el.url)} className="flex gap-4 items-center">
